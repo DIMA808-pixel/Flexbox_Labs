@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.color-1 { background-color: #a0c4ff; }
+.color-2 { background-color: #bdb2ff; } 
+.color-3 { background-color: #ffc6ff; } 
+.color-4 { background-color: #ffd6a5; } 
+.color-5 { background-color: #caffbf; } 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.middle-wrapper {
+    display: flex;
+    flex: 1;
+}
+
+
+nav, aside {
+    width: 20%; 
+    padding: 20px;
+}
+
+main {
+    flex: 1; 
+    padding: 20px;
+}
+
+header, footer {
+    padding: 20px;
+    text-align: center;
+}
